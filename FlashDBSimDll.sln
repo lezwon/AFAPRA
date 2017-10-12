@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlashDBSimDll_Sample", "FlashDBSimDll_Sample\FlashDBSimDll_Sample.vcxproj", "{54B56689-0295-46DC-A695-8F0A1DF785D4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlashDBSimDll", "FlashDBSimDll\FlashDBSimDll.vcxproj", "{E1BE6B97-9559-4BA5-BC13-DF811BB28EAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54B56689-0295-46DC-A695-8F0A1DF785D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54B56689-0295-46DC-A695-8F0A1DF785D4}.Debug|Win32.Build.0 = Debug|Win32
+		{54B56689-0295-46DC-A695-8F0A1DF785D4}.Debug|x64.ActiveCfg = Debug|Win32
+		{54B56689-0295-46DC-A695-8F0A1DF785D4}.Release|Win32.ActiveCfg = Release|Win32
+		{54B56689-0295-46DC-A695-8F0A1DF785D4}.Release|Win32.Build.0 = Release|Win32
+		{54B56689-0295-46DC-A695-8F0A1DF785D4}.Release|x64.ActiveCfg = Release|Win32
+		{E1BE6B97-9559-4BA5-BC13-DF811BB28EAD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1BE6B97-9559-4BA5-BC13-DF811BB28EAD}.Debug|Win32.Build.0 = Debug|Win32
+		{E1BE6B97-9559-4BA5-BC13-DF811BB28EAD}.Debug|x64.ActiveCfg = Debug|Win32
+		{E1BE6B97-9559-4BA5-BC13-DF811BB28EAD}.Debug|x64.Build.0 = Debug|Win32
+		{E1BE6B97-9559-4BA5-BC13-DF811BB28EAD}.Release|Win32.ActiveCfg = Release|Win32
+		{E1BE6B97-9559-4BA5-BC13-DF811BB28EAD}.Release|Win32.Build.0 = Release|Win32
+		{E1BE6B97-9559-4BA5-BC13-DF811BB28EAD}.Release|x64.ActiveCfg = Release|x64
+		{E1BE6B97-9559-4BA5-BC13-DF811BB28EAD}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CED8A42-538B-4824-92AE-3E48C031C8D5}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{10f5627f-e8cf-4a62-9815-850e495fe950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\VFD Modules">
+      <UniqueIdentifier>{a73a1b57-0a6b-47d6-9cc9-ae03a9c89ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\VFD Modules\NandDevice01">
+      <UniqueIdentifier>{4b45396c-56fa-4d2d-a5c1-e284e698629d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\VFD Modules\NandDevice02">
+      <UniqueIdentifier>{3191f0ee-e526-4890-bc6a-1e985e3ca971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\VFD Modules\NandDevice03">
+      <UniqueIdentifier>{32b91e0c-7f7e-4418-96c7-0547e57cbe79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\VFD Modules\NandDevice04">
+      <UniqueIdentifier>{fe629e0d-6f87-4704-8ad1-06222c0db42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\FTL Modules">
+      <UniqueIdentifier>{86231ebd-004b-4c48-a5eb-a82552317ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\FTL Modules\FTL01">
+      <UniqueIdentifier>{f59bf03b-d4a0-4485-bc31-e1065983f957}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashDBSimDll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashDBSim.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="NandDevice01.cpp">
+      <Filter>Library\VFD Modules\NandDevice01</Filter>
+    </ClCompile>
+    <ClCompile Include="NandDevice02.cpp">
+      <Filter>Library\VFD Modules\NandDevice02</Filter>
+    </ClCompile>
+    <ClCompile Include="NandDevice03.cpp">
+      <Filter>Library\VFD Modules\NandDevice03</Filter>
+    </ClCompile>
+    <ClCompile Include="NandDevice04.cpp">
+      <Filter>Library\VFD Modules\NandDevice04</Filter>
+    </ClCompile>
+    <ClCompile Include="FTL01.cpp">
+      <Filter>Library\FTL Modules\FTL01</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashDBSim.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="flashdbsim_i.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="NandDevice01.h">
+      <Filter>Library\VFD Modules\NandDevice01</Filter>
+    </ClInclude>
+    <ClInclude Include="NandDevice02.h">
+      <Filter>Library\VFD Modules\NandDevice02</Filter>
+    </ClInclude>
+    <ClInclude Include="NandDevice03.h">
+      <Filter>Library\VFD Modules\NandDevice03</Filter>
+    </ClInclude>
+    <ClInclude Include="NandDevice04.h">
+      <Filter>Library\VFD Modules\NandDevice04</Filter>
+    </ClInclude>
+    <ClInclude Include="FTL01.h">
+      <Filter>Library\FTL Modules\FTL01</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FlashDBSimDll.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NandDevice01.readme">
+      <Filter>Library\VFD Modules\NandDevice01</Filter>
+    </None>
+    <None Include="NandDevice02.readme">
+      <Filter>Library\VFD Modules\NandDevice02</Filter>
+    </None>
+    <None Include="NandDevice03.readme">
+      <Filter>Library\VFD Modules\NandDevice03</Filter>
+    </None>
+    <None Include="NandDevice04.readme">
+      <Filter>Library\VFD Modules\NandDevice04</Filter>
+    </None>
+    <None Include="FTL01.readme">
+      <Filter>Library\FTL Modules\FTL01</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ChangeLog.txt" />
+  </ItemGroup>
+</Project>

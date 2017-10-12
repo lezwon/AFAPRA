@@ -1,0 +1,17 @@
+hit ratio is:        0.462327
+ReadCountTotal is:   543890
+WriteCountTotal is:  509717
+EraseCountTotal is:  7098
+totalLatency is:     125987630
+
+hit ratio is:        0.462327
+ReadCountTotal is:   543890
+WriteCountTotal is:  509717
+EraseCountTotal is:  7098
+totalLatency is:     125987630
+
+hit ratio is:        0.462327
+ReadCountTotal is:   543890
+WriteCountTotal is:  509717
+EraseCountTotal is:  7098
+totalLatency is:     125987630
